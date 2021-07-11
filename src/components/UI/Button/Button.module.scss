@@ -1,0 +1,19 @@
+.button {
+  border: 3px solid grey;
+  padding: 3px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: slateblue;
+  color: salmon;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s, transform 0.8s;
+  margin: 0 5px;
+  transform: scale(1);
+
+  &:hover {
+    background-color: purple;
+    transform: scale(1.1);
+  }
+}
